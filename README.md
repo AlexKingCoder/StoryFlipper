@@ -1,3 +1,11 @@
+Story Flipper V.1.3
+
+--> Añadidas fuentes nuevas.
+
+--> Cambios menores en el diseño.
+
+--------------------------------------------
+
 Story Flipper V.1.2
 
 Cambios añadidos:
