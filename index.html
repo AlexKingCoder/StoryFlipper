@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./characters.js" type="module" defer></script>
+    <script src="./places.js" type="module" defer></script>
+    <script src="./words.js" type="module" defer></script>
+    <script src="./events.js" type="module" defer></script>
+    <script src="./items.js" type="module" defer></script>
+    <link rel="shortcut icon" href="./logo/logo-web.jpg">
+    <title>Story Flipper</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Story Flipper</h1>
+            <h2>¡Dale al botón y crea tu propia historia!</h2>
+        </div>
+    </header>
+<div id="buttonDiv">
+    <button id="generateButton">Crear historia</button>
+    <form id="epicButton">
+        <input type="checkbox" name="EpicMode" id="epicActive">
+        Activar Modo Épico
+      </form>
+</div>
+<div id="content">
+    <div class="storyItem" id="character"></div>
+    <div class="storyItem" id="place"></div>
+    <div class="storyItem" id="words"></div>
+</div>
+<div class="epicMode">
+    <div class="storyItem" id="event"></div>
+    <div class="storyItem" id="item"></div>
+</div>
+<div id="manualDiv">
+    <h4>¿Qué es Story Flipper?</h4>
+    <p id="description">Story Flipper es una aplicación que te ayuda a crear relatos creativos. Cada vez que pulses el botón, se generará: <br>🧒 Un personaje al azar, con su nombre, descripción y motivación en la historia. <br>🖼️ Un lugar fantástico al azar. <br>💡 Tres palabras que deberás usar en tu relato. <br> Si activas el <strong>Modo Épico</strong>, obtendrás dos elementos extra para tu historia: Eventos y Objetos Clave.</p>
+</div>
+<footer>©2025 Story Flipper by Alex {King Coder} - All Rights Reserved - Aplicación Flipante en Desarrollo 😀</footer>
+</body>
+</html>
